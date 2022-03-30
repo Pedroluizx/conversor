@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Conversor</title>
+  </head>
+  <body>
+    <header>
+      <h1>Conversor De Moedas</h1>
+    </header>
+
+    <div class="container">
+      <h2>BRL</h2>
+
+      <input
+        style="border-radius: 10px"
+        type="number"
+        placeholder="R$"
+        id="vlrdigitado"
+        style="max-block-size: 25px"
+      />
+
+      <div class="botoes">
+        <input
+          type="submit"
+          id="botaoconverter"
+          value="Converter"
+          onclick="converter()"
+        />
+        <input
+          type="submit"
+          id="botaolimpar"
+          value="Limpar"
+          onclick="limpar()"
+        />
+      </div>
+      <div class="resultados">
+        <div class="resultado">
+          <h2>$USD$</h2>
+          <p id="resultadodollar"></p>
+        </div>
+
+        <div class="resultado">
+          <h2>€EUR€</h2>
+          <p id="resultadoeur"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>

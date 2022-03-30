@@ -1,0 +1,60 @@
+* {
+  font-family: roboto;
+}
+
+body {
+  background: rgb(46, 46, 46);
+}
+
+header {
+  display: flex;
+  color: #ffd700;
+  justify-content: center;
+  font-family: roboto;
+}
+
+.container {
+  color: #ffd700;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-left: 400px;
+  height: 250px;
+  width: 500px;
+  background-color: black;
+  align-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+p {
+  font-size: 20px;
+}
+
+#botaoconverter {
+  margin-top: 20px;
+  font-family: roboto;
+  cursor: pointer;
+  font-size: 20px;
+  background: #ffd700;
+  color: black;
+  border-radius: 20px;
+  height: 30px;
+}
+#botaolimpar {
+  margin-top: 20px;
+  font-family: roboto;
+  cursor: pointer;
+  font-size: 20px;
+  background: #ffd700;
+  color: black;
+  border-radius: 20px;
+  height: 30px;
+}
+
+.resultados {
+  display: flex;
+}
+.resultado {
+  margin-left: 50px;
+}
